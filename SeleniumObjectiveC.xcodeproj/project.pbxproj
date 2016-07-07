@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1425201D2E654E0043B8E2 /* SeleniumObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = CD14251F1D2E654E0043B8E2 /* SeleniumObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD1425271D2E654E0043B8E2 /* SeleniumObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD14251C1D2E654E0043B8E2 /* SeleniumObjectiveC.framework */; };
+		CD14252C1D2E654E0043B8E2 /* SeleniumObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14252B1D2E654E0043B8E2 /* SeleniumObjectiveCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1425281D2E654E0043B8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1425131D2E654E0043B8E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD14251B1D2E654E0043B8E2;
+			remoteInfo = SeleniumObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD14251C1D2E654E0043B8E2 /* SeleniumObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SeleniumObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD14251F1D2E654E0043B8E2 /* SeleniumObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeleniumObjectiveC.h; sourceTree = "<group>"; };
+		CD1425211D2E654E0043B8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1425261D2E654E0043B8E2 /* SeleniumObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeleniumObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD14252B1D2E654E0043B8E2 /* SeleniumObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeleniumObjectiveCTests.m; sourceTree = "<group>"; };
+		CD14252D1D2E654E0043B8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1425181D2E654E0043B8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1425231D2E654E0043B8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1425271D2E654E0043B8E2 /* SeleniumObjectiveC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1425121D2E654E0043B8E2 = {
+			isa = PBXGroup;
+			children = (
+				CD14251E1D2E654E0043B8E2 /* SeleniumObjectiveC */,
+				CD14252A1D2E654E0043B8E2 /* SeleniumObjectiveCTests */,
+				CD14251D1D2E654E0043B8E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD14251D1D2E654E0043B8E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD14251C1D2E654E0043B8E2 /* SeleniumObjectiveC.framework */,
+				CD1425261D2E654E0043B8E2 /* SeleniumObjectiveCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD14251E1D2E654E0043B8E2 /* SeleniumObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				CD14251F1D2E654E0043B8E2 /* SeleniumObjectiveC.h */,
+				CD1425211D2E654E0043B8E2 /* Info.plist */,
+			);
+			path = SeleniumObjectiveC;
+			sourceTree = "<group>";
+		};
+		CD14252A1D2E654E0043B8E2 /* SeleniumObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD14252B1D2E654E0043B8E2 /* SeleniumObjectiveCTests.m */,
+				CD14252D1D2E654E0043B8E2 /* Info.plist */,
+			);
+			path = SeleniumObjectiveCTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD1425191D2E654E0043B8E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1425201D2E654E0043B8E2 /* SeleniumObjectiveC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD14251B1D2E654E0043B8E2 /* SeleniumObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1425301D2E654E0043B8E2 /* Build configuration list for PBXNativeTarget "SeleniumObjectiveC" */;
+			buildPhases = (
+				CD1425171D2E654E0043B8E2 /* Sources */,
+				CD1425181D2E654E0043B8E2 /* Frameworks */,
+				CD1425191D2E654E0043B8E2 /* Headers */,
+				CD14251A1D2E654E0043B8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeleniumObjectiveC;
+			productName = SeleniumObjectiveC;
+			productReference = CD14251C1D2E654E0043B8E2 /* SeleniumObjectiveC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD1425251D2E654E0043B8E2 /* SeleniumObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1425331D2E654E0043B8E2 /* Build configuration list for PBXNativeTarget "SeleniumObjectiveCTests" */;
+			buildPhases = (
+				CD1425221D2E654E0043B8E2 /* Sources */,
+				CD1425231D2E654E0043B8E2 /* Frameworks */,
+				CD1425241D2E654E0043B8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1425291D2E654E0043B8E2 /* PBXTargetDependency */,
+			);
+			name = SeleniumObjectiveCTests;
+			productName = SeleniumObjectiveCTests;
+			productReference = CD1425261D2E654E0043B8E2 /* SeleniumObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1425131D2E654E0043B8E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "hiroki shirai";
+				TargetAttributes = {
+					CD14251B1D2E654E0043B8E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CD1425251D2E654E0043B8E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CD1425161D2E654E0043B8E2 /* Build configuration list for PBXProject "SeleniumObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD1425121D2E654E0043B8E2;
+			productRefGroup = CD14251D1D2E654E0043B8E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD14251B1D2E654E0043B8E2 /* SeleniumObjectiveC */,
+				CD1425251D2E654E0043B8E2 /* SeleniumObjectiveCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD14251A1D2E654E0043B8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1425241D2E654E0043B8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1425171D2E654E0043B8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1425221D2E654E0043B8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD14252C1D2E654E0043B8E2 /* SeleniumObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1425291D2E654E0043B8E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD14251B1D2E654E0043B8E2 /* SeleniumObjectiveC */;
+			targetProxy = CD1425281D2E654E0043B8E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD14252E1D2E654E0043B8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD14252F1D2E654E0043B8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD1425311D2E654E0043B8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SeleniumObjectiveC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-shiraihiroki.jp.SeleniumObjectiveC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD1425321D2E654E0043B8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SeleniumObjectiveC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-shiraihiroki.jp.SeleniumObjectiveC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD1425341D2E654E0043B8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeleniumObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-shiraihiroki.jp.SeleniumObjectiveCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD1425351D2E654E0043B8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeleniumObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-shiraihiroki.jp.SeleniumObjectiveCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1425161D2E654E0043B8E2 /* Build configuration list for PBXProject "SeleniumObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD14252E1D2E654E0043B8E2 /* Debug */,
+				CD14252F1D2E654E0043B8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1425301D2E654E0043B8E2 /* Build configuration list for PBXNativeTarget "SeleniumObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1425311D2E654E0043B8E2 /* Debug */,
+				CD1425321D2E654E0043B8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1425331D2E654E0043B8E2 /* Build configuration list for PBXNativeTarget "SeleniumObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1425341D2E654E0043B8E2 /* Debug */,
+				CD1425351D2E654E0043B8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1425131D2E654E0043B8E2 /* Project object */;
+}
